@@ -1,0 +1,28 @@
+.profile {
+  width: 250px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+background-color: #fff;
+  -webkit-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
+  -moz-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
+  box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
+}
+.description {
+  margin: 0 auto;
+  text-align: center;
+
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+
+}
+.name {
+  margin: 0;
+  font-size: 40px;
+  
+}
+.tag {
+  color: #DBAFCB;
+}
