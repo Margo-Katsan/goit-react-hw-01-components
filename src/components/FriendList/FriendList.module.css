@@ -1,10 +1,13 @@
 .friendList {
-  width: 250px;
-  padding: 50px;
+  width: 320px;
+
+  padding: 0;
+  padding: 15px;
   margin: 0 auto;
   margin-bottom: 30px;
-background-color: #fff;
-  -webkit-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
-  -moz-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
-  box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
+  background-color: #fff;
+  -webkit-box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
+  -moz-box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
+  box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
+  list-style: none;
 }

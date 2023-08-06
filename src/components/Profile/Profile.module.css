@@ -1,28 +1,63 @@
 .profile {
+  position: relative;
+
   width: 250px;
   padding: 50px;
   margin: 0 auto;
   margin-bottom: 30px;
-background-color: #fff;
-  -webkit-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
-  -moz-box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
-  box-shadow: 1px 3px 7px 0px rgba(199,138,177,0.96);
+
+  background-color: #fff;
+  -webkit-box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
+  -moz-box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
+  box-shadow: 1px 3px 7px 0px rgba(199, 138, 177, 0.96);
 }
 .description {
   margin: 0 auto;
   text-align: center;
-
 }
 .avatar {
   display: block;
   margin: 0 auto;
-
+  margin-bottom: 20px;
 }
 .name {
   margin: 0;
+
   font-size: 40px;
-  
 }
 .tag {
-  color: #DBAFCB;
+  color: #ac88a2;
+}
+.location {
+  color: #ac88a2;
+}
+.stats {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  list-style: none;
+  background-color: #e6d7e2;
+}
+.statsItem {
+  padding: 5px;
+  width: 116px;
+  text-align: center;
+}
+.statsItem:not(:last-child) {
+  border-right: 1px solid #ac88a2;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+.quantity {
+  display: block;
+
+  font-weight: 600;
 }
